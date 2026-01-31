@@ -39,5 +39,3 @@ class AdvancedAnomalyDetector:
             if prediction[0] == -1:
                 print("Anomaly detected: unusual event pattern!")
                 self.event_queue.clear()
-
-
